@@ -1,7 +1,7 @@
 import qrcode
 
 # Website URL
-url = "http://learnsolidworks.com/isug"
+url = "Your Link Here"
 
 # Generate QR Code
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
@@ -12,6 +12,6 @@ qr.make(fit=True)
 img = qr.make_image(fill='black', back_color='white')
 
 # Save the QR code image
-img.save("learn_solidworks.png")
+img.save("demo.png")
 
-print("QR Code generated and saved as 'learn_solidworks.png'")
+print("QR Code generated and saved as 'demo.png'")
