@@ -1,2 +1,2 @@
-pip install qrcode
-Provide your desired url and bingo QR saved in your directory.
+1. pip install qrcode
+2. Provide your desired url and run code. Bingo QR saved in your directory.
